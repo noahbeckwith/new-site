@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js "></script>
+
+    <link rel="stylesheet" href="flickity.css">
+</head>
+<body>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <div class="title">
+        <h1>NOAH BECKWITH</h1>
+    </div>
+    <div class="hide">
+        <p class="bio">
+            I'm an artist and designer from New York City. I have fun making posters, books, websites and lots of other stuff but I can also be very serious.
+        </p>
+<!--
+        <p class="links">
+                Press + Features<br>
+                Email<br>
+                Instagram<br>
+        </p>
+-->
+    </div>
+    
+<!--
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+  <div class="carousel-cell"><img src="https://www.itsnicethat.com/system/files/052017/5922b9bc7fa44ca09f00064c/images_slice_large/Noah_Beckwith_ITSNICETHAT_11.jpg"></div>
+  <div class="carousel-cell"><img src="http://payload543.cargocollective.com/1/14/468921/13175716/Tabloid-Fall-Speakers-Poster_1000.jpg"></div>
+  <div class="carousel-cell">  <img src="https://i.pinimg.com/originals/d5/2c/23/d52c23c765969db655e4ca147fb4bee0.png"></div>
+</div>
+-->
+
+    <!--
+    <div class="work">
+        <img src="https://www.itsnicethat.com/system/files/052017/5922b9bc7fa44ca09f00064c/images_slice_large/Noah_Beckwith_ITSNICETHAT_11.jpg">
+        <img src="http://payload543.cargocollective.com/1/14/468921/13175716/Tabloid-Fall-Speakers-Poster_1000.jpg">
+        <img src="https://i.pinimg.com/originals/d5/2c/23/d52c23c765969db655e4ca147fb4bee0.png">
+        <img src="http://payload500.cargocollective.com/1/14/468921/12305322/diesam_1000.png">
+            </div>
+-->
+    
+    <script>
+			$(".title").click(function() {
+				$(".hide").toggleClass("info");
+			});
+    </script>
+    
+    <script>
+			$(".hide").click(function() {
+				$(this).toggleClass("info");
+			});
+    </script>   
+
+</body>
+</html>

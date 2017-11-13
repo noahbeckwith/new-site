@@ -1,0 +1,145 @@
+body {
+    font-family: arial, helvetica, helvetica neue;
+    font-size: 11pt;
+    margin: 20px;
+}
+
+h1 {
+    font-family: arial, helvetica, helvetica neue;
+    font-size: 11pt;
+    font-weight: normal;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    position:fixed;
+    bottom:20px;
+}
+
+.hide {
+    visibility: hidden;
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    left:180px;
+    bottom:20px;
+}
+
+.info {
+    display: flex;
+    flex-flow: row;
+    visibility: visible;
+    position: fixed;
+    left:180px;
+    bottom:20px;
+}
+
+.bio {
+    padding-right:20px;
+    width: 100%;
+}
+
+.links {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding-right: 0px;
+}
+}
+
+/*image*/
+img {
+    height:70vh;
+    margin-right: 20px;
+}
+
+.work {
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    flex-flow: row;
+}
+
+@media all and (min-width: 800px) {
+
+body {
+    font-family: arial, helvetica, helvetica neue;
+    font-size: 11pt;
+    margin: 20px;
+}
+
+h1 {
+    font-family: arial, helvetica, helvetica neue;
+    font-size: 11pt;
+    font-weight: normal;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    position:fixed;
+    bottom:20px;
+}
+
+.hide {
+    visibility: hidden;
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    left:180px;
+    bottom:20px;
+}
+
+.info {
+    display: flex;
+    flex-flow: row;
+    visibility: visible;
+    position: fixed;
+    left:180px;
+    bottom:20px;
+}
+
+.bio {
+    padding-right:20px;
+    width: 100%;
+}
+
+.links {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding-right: 0px;
+}
+
+/*image*/
+img {
+    height:70vh;
+    margin-right: 20px;
+}
+
+.work {
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    flex-flow: row;
+}
+}
